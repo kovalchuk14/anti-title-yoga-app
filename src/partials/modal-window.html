@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/container.css" />
+    <link rel="stylesheet" href="../css/tags.css" />
+    <link rel="stylesheet" href="../css/modal-window.css" />
+  </head>
+
+  <body>
+    <div class="checkout-10-container is-open">
+      <div class="checkout">
+        <button class="checkout-close-button" type="button">
+          <svg class="checkout-close-icon" width="32" height="32">
+            <use href="../images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="checkout-main-text">Join Now!</p>
+        <p class="checkout-label">One Session</p>
+        <p class="checkout-main-text">$10</p>
+        <form>
+          <div class="checkout-form-container">
+            <label class="checkout-label" for="user-name">Your Name</label>
+            <input
+              class="checkout-input"
+              id="user-name"
+              name="user-name"
+              type="text"
+            />
+          </div>
+          <div class="checkout-form-container">
+            <label class="checkout-label" for="email">Email</label>
+            <input
+              class="checkout-input"
+              id="email"
+              name="email"
+              type="email"
+            />
+          </div>
+          <div class="checkout-form-container">
+            <label class="checkout-label" for="phone-number">
+              Phone number
+            </label>
+            <input
+              class="checkout-input"
+              id="phone-number"
+              name="phone-number"
+              type="tel"
+            />
+          </div>
+          <button class="checkout-send-button" type="submit">
+            Go to checkout
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div class="mobile-window-container is-open">
+      <div class="mobile-window">
+        <button class="mobile-window-close-button" type="button">
+          <svg class="mobile-window-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <nav class="mobile-logo">
+          <ul class="mobile-nav">
+            <li>
+              <a class="mobile-link mobile-link-current" href="./index.html">
+                Studio
+              </a>
+            </li>
+            <li><a class="mobile-link" href="">Portfolio</a></li>
+            <li><a class="mobile-link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="mobile-address">
+          <ul class="mobile-address-links">
+            <li>
+              <a
+                class="mobile-address-link mobile-address-number"
+                href="tel:+110001111111"
+              >
+                +11 (000) 111-11-11
+              </a>
+            </li>
+            <li>
+              <a class="mobile-address-link" href="mailto:info@devstudio.com">
+                info@devstudio.com
+              </a>
+            </li>
+          </ul>
+        </address>
+        <div>
+          <ul class="mobile-social">
+            <li class="mobile-social-all-icon">
+              <a class="mobile-social-link" href="">
+                <svg class="mobile-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-social-all-icon">
+              <a class="mobile-social-link" href="">
+                <svg class="mobile-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-social-all-icon">
+              <a class="mobile-social-link" href="">
+                <svg class="mobile-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-social-all-icon">
+              <a class="mobile-social-link" href="">
+                <svg class="mobile-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

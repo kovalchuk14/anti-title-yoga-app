@@ -1,0 +1,120 @@
+.checkout-10-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 250ms ease-in-out;
+}
+
+.checkout-10-container.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.checkout {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 408px;
+  min-height: 584px;
+  background: #fcfcfc;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
+}
+
+.checkout-close-button {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkout-close-button:hover,
+.checkout-close-button:focus {
+  background-color: #404bbf;
+  border: none;
+}
+
+.checkout-close-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkout-close-button:hover .mod-window-close-icon,
+.checkout-close-button:focus .mod-window-close-icon {
+  fill: #ffffff;
+}
+
+.checkout-main-text {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 32px;
+  font-family: 'Cabin', sans-serif;
+}
+
+.checkout-form-container {
+  margin-bottom: 24px;
+}
+
+.checkout-label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.checkout-input {
+  width: 100%;
+  border-radius: 12px;
+  padding: 8px 12px;
+  width: 343px;
+  height: 42px;
+  border: transparent;
+  border-radius: 4px;
+  background-color: rgba(13, 11, 10, 0.05);
+  outline: transparent;
+}
+
+.checkout-send-button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
