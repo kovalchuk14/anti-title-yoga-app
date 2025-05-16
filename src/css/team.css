@@ -1,0 +1,112 @@
+/*Delete after update container.css - max-width not 320px!*/
+.team-section .container{
+    max-width: 375px;
+}
+
+.team-section{
+
+}
+
+.team-title-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 48px;
+}
+
+.team-title-meet{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #0d0b0a;
+
+    margin-bottom: 12px;
+}
+
+.team-header{
+    font-weight: 400;
+    color: #0d0b0a;
+
+    margin-bottom: 20px;
+}
+
+.team-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color:  #0d0b0a;;
+}
+
+.team-card-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.team-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 48px;
+}
+
+.team-thumb{
+    width: 343px;
+    height: 221px;
+    border-radius: 16px;
+    overflow: hidden;
+   
+    margin-bottom: 20px;
+}
+
+.team-image{
+    object-fit: cover;
+}
+
+.team-card-header{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #0d0b0a;
+}
+
+.team-profession{
+   margin-bottom: 16px ; 
+}
+
+.team-description{
+    margin-bottom: 20px;
+}
+.team-soc-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.team-soc-item{
+    position: relative;
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+
+.team-social-icons{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: block;
+    fill: #0d0b0a;
+}
