@@ -20,12 +20,9 @@
 
 .checkout {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 408px;
-  min-height: 584px;
-  background: #fcfcfc;
+  width: 100%;
+  height: 100%;
+  background: #ddebeb;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -43,8 +40,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #e7e9fc;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #ddebeb;
+  border: none;
   padding: 0;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -53,17 +50,17 @@
 
 .checkout-close-button:hover,
 .checkout-close-button:focus {
-  background-color: #404bbf;
-  border: none;
+  background-color: rgba(13, 11, 10, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0);
 }
 
 .checkout-close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkout-close-button:hover .mod-window-close-icon,
-.checkout-close-button:focus .mod-window-close-icon {
-  fill: #ffffff;
+.checkout-close-button:active {
+  background-color: #c2d9fc;
+  border: 1px solid #c2d9fc;
 }
 
 .checkout-main-text {
@@ -74,6 +71,15 @@
   text-align: center;
   margin-bottom: 32px;
   font-family: 'Cabin', sans-serif;
+}
+
+.checkout-session {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .checkout-form-container {
@@ -92,7 +98,6 @@
   width: 100%;
   border-radius: 12px;
   padding: 8px 12px;
-  width: 343px;
   height: 42px;
   border: transparent;
   border-radius: 4px;
@@ -102,19 +107,22 @@
 
 .checkout-send-button {
   display: block;
-  min-width: 169px;
-  height: 56px;
-  font-family: 'Roboto', sans-serif;
+  width: 343px;
+  height: 46px;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
+  line-height: 1.6;
+  border-radius: 100px;
   cursor: pointer;
-  background-color: #4d5ae5;
+  background-color: #c2d9fc;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1158px) {
 }
