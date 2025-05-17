@@ -53,7 +53,8 @@
 
     .about-us-button {
         padding: 10px 24px;
-        width: auto;
+        margin: 0 auto;
+        width: max-content;
     }
 
     .about-us-button-span {
