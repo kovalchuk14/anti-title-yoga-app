@@ -1,11 +1,16 @@
 /*Delete after update container.css - max-width not 320px!*/
-.team-section .container{
+.team-container{
+    min-width: 320px;
     max-width: 375px;
+    background-color: blueviolet;
 }
 
-.team-section{
-
-}
+ @media screen and (min-width: 768px){
+    .team-container {
+        max-width: 768px;
+     }
+ }
+/* End of deleted styles*/
 
 .team-title-cont{
     display: flex;
@@ -41,25 +46,42 @@
     color:  #0d0b0a;;
 }
 
-.team-card-cont{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
 .team-list{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: first baseline;
     row-gap: 48px;
+    column-gap: 24px;
+
+    background-color: antiquewhite;
 }
 
+.team-list-item{
+    min-width: 320px;
+    max-width: 375px;
+    outline: 1px solid red;
+}
+
+ @media screen and (min-width: 768px){
+    .team-list-item {
+        max-width: 340px;
+     }
+ }
+
+.team-card-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
 .team-thumb{
-    width: 343px;
+    min-width: 320px;
+    max-width: 343px;
     height: 221px;
     border-radius: 16px;
     overflow: hidden;
@@ -67,8 +89,15 @@
     margin-bottom: 20px;
 }
 
+ @media screen and (min-width: 768px){
+    .team-thumb {
+        max-width: 340px;
+        height: 395px;
+     }
+ }
+
 .team-image{
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .team-card-header{
