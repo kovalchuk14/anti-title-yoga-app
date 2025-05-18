@@ -1,0 +1,257 @@
+/* Основные стили */
+body {
+    margin: 0;
+    font-family: "Sarabun", sans-serif;
+    background: #dfebeb;
+}
+
+/* Контейнер для отступов */
+.footer-container {
+    padding: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Белый блок футера */
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1440px;
+    background: #fff;
+    border-radius: 16px;
+    padding: 64px;
+    box-sizing: border-box;
+    gap: 40px;
+    position: relative; /* Для управления копирайтом в адаптиве */
+}
+
+/* Секция с формой и ссылками */
+.footer-content {
+    display: flex;
+    gap: 250px;
+}
+
+/* Левая секция (форма) */
+.newsletter-section {
+    flex: 1;
+    position: relative; /* Для управления копирайтом */
+}
+
+.logo-icon {
+    width: 84px;
+    height: 36px;
+}
+
+.newsletter-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin: 16px 0 0;
+}
+
+.subscription-form {
+    display: flex;
+    gap: 16px;
+    margin: 24px 0;
+}
+
+.email-input {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    background: #f5f5f5;
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.email-input::placeholder {
+    color: rgba(13, 11, 10, 0.6);
+}
+
+.join-btn {
+    padding: 10px 24px;
+    border: none;
+    border-radius: 100px;
+    background: #f5f5f5;
+    font-family: "Sarabun", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.join-btn:hover {
+    background: #e0e0e0;
+}
+
+.privacy-text {
+    font-size: 12px;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Копирайт */
+.copyright {
+    font-size: 12px;
+    color: #333;
+    margin-top: 16px; /* Отступ от текста политики */
+}
+
+/* Правая секция (ссылки) */
+.links-section {
+    display: flex;
+    gap: 40px;
+}
+
+.quick-links, .connect-links {
+    min-width: 160px;
+}
+
+.connect-links svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #666;
+}
+
+h3 {
+    margin: 0 0 16px 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* Адаптивность */
+@media (min-width: 1336px) {
+    .footer-content {
+        flex-direction: row;
+    }
+    .links-section {
+        flex: 1;
+    }
+    .newsletter-section {
+        max-width: 595px;
+    }
+}
+
+@media (max-width: 1335px) {
+    .footer {
+        padding: 40px;
+        gap: 32px;
+    }
+    .footer-content {
+        flex-direction: column;
+    }
+    .links-section {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: row;
+        gap: 40px;
+        width: 640px;
+        height: 202px;
+    }
+    .newsletter-section, .quick-links, .connect-links {
+        max-width: 100%;
+    }
+    /* Перемещаем копирайт в конец футера */
+    .copyright {
+        position: absolute;
+        bottom: 40px; /* Учитываем padding футера */
+        left: 40px; /* Учитываем padding футера */
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-container {
+        padding: 24px;
+    }
+    .footer {
+        padding: 24px;
+        gap: 24px;
+    }
+    .subscription-form {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .email-input, .join-btn {
+        width: 100%;
+        padding: 10px;
+    }
+    .links-section {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 40px;
+        width: 279px;
+        height: 428px;
+    }
+    .quick-links, .connect-links {
+        min-width: 100%;
+    }
+    .copyright {
+        bottom: 24px; /* Учитываем padding футера */
+        left: 24px; /* Учитываем padding футера */
+    }
+}
+
+@media (max-width: 374px) {
+    .footer-container {
+        padding: 16px;
+    }
+    .footer {
+        padding: 16px;
+    }
+    .logo-icon {
+        width: 60px;
+        height: 26px;
+    }
+    .email-input, .join-btn {
+        font-size: 14px;
+        padding: 8px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    li {
+        font-size: 14px;
+    }
+    .links-section {
+        width: 100%;
+        height: auto;
+    }
+    .copyright {
+        bottom: 16px; /* Учитываем padding футера */
+        left: 16px; /* Учитываем padding футера */
+    }
+}
