@@ -1,0 +1,70 @@
+
+.title-space {
+  text-align: center;
+  font-size: 28px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.br-line {
+  display: block;
+}
+.step-yogabloom {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 48px;
+}
+
+.practic {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.yoga {
+  flex: 0 1 calc((100% - 16px) / 2);
+}
+
+.step {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
+
+.container {
+    padding: 0 24px;
+    max-width: 320px;
+    margin: 0 auto;
+}
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 335px;
+    padding: 0 20px;
+  }
+
+  .title-space {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+
+  .step-yogabloom {
+    font-size: 16px;
+    margin-bottom: 48px;
+  }
+
+  .yoga {
+    flex: 0 1 calc((100% - 16px) / 2); 
+  }
+}
+@media screen and (min-width: 768px) {
+  /* планшеты */
+}
+
+@media screen and (min-width: 1024px) {
+  /* десктоп */
+}
