@@ -58,13 +58,17 @@
   }
 
   .yoga {
-    flex: 0 1 calc((100% - 16px) / 2); 
+    flex: 0 1 calc((100% - 16px) / 2);
   }
 }
-@media screen and (min-width: 768px) {
-  /* планшеты */
+@media screen and (min-width: 768px) and (max-width:1335px)
+{
+    .title-space
+    {
+      display: inline;
+    }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1336px) {
   /* десктоп */
 }
