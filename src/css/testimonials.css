@@ -79,6 +79,7 @@
   letter-spacing: 0.01em;
   text-align: center;
   color: var(--color-scheme-4-text);
+  margin-bottom: 20px;
 }
 
 .testimonials-text {
@@ -88,7 +89,6 @@
   line-height: 160%;
   text-align: center;
   color: var(--color-scheme-4-text);
-  max-width: 100px;
 }
 .container-testimonials {
   padding-top: 64px;
@@ -96,13 +96,27 @@
 }
 
 @media (min-width: 768px) and (max-width: 1335px) {
-  .testimonials-title {
+  .testimonials-titel {
     font-size: 40px;
+  }
+  .testimonials-f {
+    margin: 0 auto;
+  }
+  .testimonials-list {
+    flex-direction: column;
+  }
+  .testimonials-text-a {
+    max-width: 680px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .testimonials-list-item {
   }
 }
 
 @media (min-width: 1335px) {
-  .testimonials-title {
+  .testimonials-titel {
     font-size: 52px;
   }
 }
@@ -110,5 +124,65 @@
   max-width: 311px;
   padding-left: 16px;
   padding-right: 16px;
-  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.testimonials-list {
+  display: flex;
+  row-gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.testimonials-list-container {
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+  padding: 12px;
+  border-radius: 12px;
+}
+.testimonials-text-a {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  text-align: center;
+  color: var(--color-scheme-4-text);
+  width: 319px;
+  margin-bottom: 32px;
+}
+.testimonials-image {
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonials-foto {
+  margin-bottom: 16px;
+}
+.testimonials-name {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 160%;
+
+  color: var(--color-scheme-3-text);
+}
+.testimonials-prof {
+  font-family: var(--third-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: var(--color-scheme-3-text);
+}
+.testimonials-list-item {
+  border-radius: 24px;
+  background: var(--color-scheme-2-foreground);
+  padding: 12px;
+}
+.testimonials-img {
+  border-radius: 100%;
 }
