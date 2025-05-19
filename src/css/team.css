@@ -1,4 +1,4 @@
-/*Delete after update container.css - max-width not 320px!*/
+/*Delete after update container.css - max-width not 320px!
 .team-container{
     min-width: 320px;
     max-width: 375px;
@@ -10,11 +10,6 @@
      }
  }
 
-  @media screen and (min-width: 768px){
-    .team-container {
-        max-width: 768px;
-     }
- }
    @media screen and (min-width: 1336px){
     .team-container {
         max-width: 1440px;
@@ -82,6 +77,7 @@
  }
 
 .team-list{
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -93,12 +89,18 @@
 
  @media screen and (min-width: 768px){
     .team-list {
+        row-gap: 24px;
+     }
+ }
+
+  @media screen and (min-width: 1336px){
+    .team-list {
         row-gap: 64px;
      }
  }
 
 .team-list-item{
-    min-width: 320px;
+    width: 100%;
     max-width: 375px;
 }
 
@@ -111,6 +113,7 @@
   @media screen and (min-width: 1336px){
     .team-list-item {
         max-width: 421px;
+        width: calc((100% - 48px) / 3);
      }
  }
 
@@ -124,7 +127,8 @@
 
 .team-thumb{
     position: relative;
-    min-width: 320px;
+    width: 100%;
+    min-width: 288px;
     max-width: 343px;
     height: 221px;
     border-radius: 16px;
@@ -145,7 +149,7 @@
   @media screen and (min-width: 1336px){
     .team-thumb {
         max-width: 100%;
-        min-width: 421px;
+        width: 100%;
      }
  }
 
