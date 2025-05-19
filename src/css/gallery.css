@@ -73,12 +73,25 @@
       padding: 0 32px;
       margin: 0 auto;
     }
-    /* .practic
+    .step-yogabloom
     {
-      gap: 24px;
-    } */
+       max-width: 600px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+    }
 }
 
 @media screen and (min-width: 1336px) {
-  /* десктоп */
+ .step-yogabloom
+    {
+       max-width: 680px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+    }
+    .yoga {
+flex: 0 1 calc((100% - 24px * 2) / 3);
+
+}
 }
