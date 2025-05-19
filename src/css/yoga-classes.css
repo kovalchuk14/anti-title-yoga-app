@@ -1,0 +1,169 @@
+.yoga-classes {
+    background-color: #dfebeb;
+}
+.tagline {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.heading-title {
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.heading-text {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+}
+.heading {
+    margin-bottom: 48px;
+}
+.yogaimage {
+    border-radius: 16px;
+    margin-bottom: 24px;
+    width: 100%;
+}
+.titleimage {
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.join-ref {
+    border: 1px solid #c2d9fc;
+    border-radius: 100px;
+    padding: 10px 24px;
+    background-color: #c2d9fc;
+    max-width: 100%;font-weight: 500;
+    font-size: 16px;
+    line-height:1.6;
+    display: flex;
+    justify-content: center;
+}
+.yoga-column {
+    display: flex;
+    flex-direction: column;
+    row-gap: 48px;
+    margin-bottom: 48px;
+}
+.now-none {
+    display: none;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding: 0 32px;
+    }
+    .yoga-classes {
+        background-color: #f2fafa;
+    }
+    .tagline {
+        margin-bottom: 16px;
+    }
+    .heading-title {
+        margin-bottom: 24px;
+    }
+    .heading {
+        margin-bottom: 40px;
+    }
+    .text-programs {
+        display: block;
+        text-align: center;
+    }
+    .yoga-content {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .yoga-column {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 24px;
+        row-gap: 61px;
+    }
+    .yoga-column-items {
+        max-width: 340px;
+    }
+    .experience-text {
+        display: none;
+    }
+    .yoga-column-items-grow {
+        max-width: 704px;
+    }
+    .join-ref {
+        max-width: 110px;
+        margin: 0 auto;       
+    }
+    .yogaimage {
+       margin-bottom: 16px;
+    }
+    .yoga-column {
+        margin-bottom: 40px;
+    }
+    .titleimage {
+        margin-bottom: 0;
+    }
+    .now-none {
+        display: inline;
+    }
+   
+}
+
+
+
+@media screen and (min-width: 1336px) {
+    .container {
+        max-width: 1440px;
+        padding: 0 64px;
+    }
+    .yoga-column {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        column-gap: 24px;
+        row-gap: 0;
+    }
+    .yoga-column-items {
+            max-width: 421px;
+    }
+    .text-bottom {
+        display:inline;
+    }
+    .heading-title {
+        font-size: 52px;
+    }
+    .heading-text {
+        font-size: 18px;
+    }
+    .heading {
+        max-width: 768px;
+        margin: 0  auto 40px auto;
+    }
+    .titleimage {
+        font-size: 36px;
+    }
+    .heading-texth3 {
+        font-size: 16px;
+    }
+    .yoga-content {
+        max-width: 421px;
+    }
+    .experience-text {
+        display: inline;
+    }
+    .yogaimage {
+        margin-bottom: 32px;
+    }
+    .titleimage {
+        margin-bottom: 24px;
+    }
+}
