@@ -1,10 +1,12 @@
-/*Delete after update container.css - max-width not 320px!*/
+/*Delete after update container.css */
 .team-container{
     width: 100%;
     min-width: 320px;
     max-width: 375px;
     padding: 0 16px;
     margin: 0 auto;
+
+    background-color: #F2FAFA;
 }
 
  @media screen and (min-width: 768px){
