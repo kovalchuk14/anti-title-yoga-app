@@ -79,6 +79,10 @@
 
 	} */
 
+    .header-container {
+        padding: 0 64px;
+    }
+
     .top-menu {
         padding-top: 15px;
         padding-bottom: 15px;
