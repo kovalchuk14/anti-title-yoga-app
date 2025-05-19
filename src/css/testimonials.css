@@ -93,6 +93,7 @@
 .container-testimonials {
   padding-top: 64px;
   padding-bottom: 64px;
+  margin: 0 auto;
 }
 
 @media (min-width: 768px) and (max-width: 1335px) {
@@ -111,7 +112,31 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .testimonials-list-item {
+  .container-testimonials {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .testimonials-text-ab {
+    padding-bottom: 102px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-align: center;
+    color: var(--color-scheme-4-text);
+    padding-bottom: 102px;
+  }
+  .testimonials-text-ac {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-align: center;
+    color: var(--color-scheme-4-text);
+    padding-bottom: 67px;
   }
 }
 
@@ -119,7 +144,40 @@
   .testimonials-titel {
     font-size: 52px;
   }
+  .container-testimonials {
+    padding: 112px 64px;
+  }
+  .testimonials-list {
+    column-gap: 24px; /* вот ключевой момент! */
+  }
+  .testimonials-list-item {
+    width: calc(50% - 12px); /* 2 элемента в строке, минус половина gap */
+  }
+  .testimonials-f {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .testimonials-text-ab {
+    padding-bottom: 102px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-align: center;
+    color: var(--color-scheme-4-text);
+    padding-bottom: 102px;
+  }
+  .testimonials-text-ac {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-align: center;
+    color: var(--color-scheme-4-text);
+    padding-bottom: 67px;
+  }
 }
+
 .testimonials-f {
   max-width: 311px;
   padding-left: 16px;
@@ -137,7 +195,7 @@
   justify-content: center;
 
   flex-direction: column;
-  padding: 12px;
+
   border-radius: 12px;
 }
 .testimonials-text-a {
@@ -147,8 +205,27 @@
   line-height: 160%;
   text-align: center;
   color: var(--color-scheme-4-text);
-  width: 319px;
+
   margin-bottom: 32px;
+}
+.testimonials-text-ab {
+  padding-bottom: 102px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  text-align: center;
+  color: var(--color-scheme-4-text);
+  padding-bottom: 102px;
+}
+.testimonials-text-ac {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  text-align: center;
+  color: var(--color-scheme-4-text);
+  padding-bottom: 67px;
 }
 .testimonials-image {
   padding-top: 0;
