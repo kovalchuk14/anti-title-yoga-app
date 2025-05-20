@@ -80,10 +80,6 @@
         display: unset;
     }
 
-    .container {
-        padding: 0 32px;
-    }
-
     .yoga-classes {
         background-color: #f2fafa;
     }
@@ -148,10 +144,6 @@
 
 
 @media screen and (min-width: 1336px) {
-    .container {
-        max-width: 1440px;
-        padding: 0 64px;
-    }
 
     .yoga-column {
         flex-direction: row;
