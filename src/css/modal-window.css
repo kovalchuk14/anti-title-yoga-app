@@ -134,7 +134,6 @@
   padding: 8px 12px;
   height: 42px;
   border: transparent;
-  border-radius: 4px;
   background-color: rgba(13, 11, 10, 0.05);
   outline: transparent;
 }
@@ -178,11 +177,10 @@
 
 .mob-menu-header {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-content: center;
-  gap: 62px;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  align-items: center;
+  padding: 15px 16px 15px 16px;
 }
 
 .mob-menu {
@@ -249,8 +247,7 @@
 .mob-menu-nav-all {
   display: flex;
   align-items: center;
-  padding: 16px;
-  padding-bottom: 276px;
+  padding: 16px 16px 276px 16px;
 }
 
 .mob-menu-nav {
@@ -348,13 +345,17 @@
   }
 
   .mob-menu-header {
-    gap: 233px;
+    padding: 11px 32px 11px 32px;
   }
 
   .mob-menu-join-button {
     padding: 8px 20px;
     width: 105px;
     height: 42px;
+  }
+
+  .mob-menu-nav-all {
+    padding: 16px 32px 276px 32px;
   }
 
   .mob-menu-bjoin-button {
