@@ -1,0 +1,171 @@
+.section-pricing {
+    color: #0D0B0A;
+    background-color: #F8FBFE;
+
+}
+
+.pricing-price {
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.pricing-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pricing-perfect-plan {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.pricing-table {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.pricing-table-list {
+    width: 100%;
+    padding: 32px 24px;
+    background-color: #C3DBC4;
+    border-radius: 16px;
+}
+
+.pricing-list-title {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.pricing-list-money {
+    font-size: 44px;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.pricing-table-privilege {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.pricing-table-svg {
+  fill: #0D0B0A; 
+  margin-right: 16px; 
+}
+
+.pricing-button {
+    width: 100%;
+    height: 46px;
+    background-color: #C2D9FC;
+    border: 1px solid #C2D9FC;
+    border-radius: 100px;
+    padding: 10px 24px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #0D0B0A;
+}
+
+@media screen and (min-width: 768px) {
+    .container-title-money {
+        width: 320px;
+    }
+
+    .pricing-list-title-width {
+        margin-bottom: 24px;
+    }
+
+    .pricing-list-money {
+        font-size: 72px;
+    }
+
+    .money {
+        margin-bottom: 0;
+    }
+
+    .pricing-table {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .pricing-table-list {
+        width: 340px;
+        padding: 16px;
+    }
+
+    .pricing-table-list-width {
+        width: 704px;
+        display: flex;
+        position: relative;
+        gap: 32px;
+        padding: 86px 16px;
+        height: 383px;
+    }
+
+    .pricing-table-privilege-list-hiden {
+        display: none;
+    }
+
+    .button-width {
+        width:320px;
+        position: absolute;
+        left: 16px;
+        bottom: 86px;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .pricing-table {
+        flex-wrap: nowrap;
+
+    }
+
+    .pricing-perfect-plan {
+        font-size: 18px;
+    }
+
+    .pricing-table-list {
+        padding: 32px;
+        width: 420px;
+    }
+
+    .pricing-table-list-width {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .pricing-list-title {
+        font-size: 22px;
+    }
+
+    .pricing-list-money {
+        margin-bottom: 32px;
+    }
+
+    .pricing-table-privilege {
+        margin-bottom: 116px;
+    }
+
+    .privilege {
+        margin-bottom: 0px;
+    }
+
+    .pricing-list-title-width {
+        margin-bottom: 8px;
+    }
+
+    .money {
+        margin-bottom: 0;
+    }
+
+    .button-width {
+        position: static;
+        width: 100%;
+    }
+}
