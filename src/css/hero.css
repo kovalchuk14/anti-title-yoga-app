@@ -10,7 +10,12 @@
 }
 
 .conteiner-transform-life {
-	padding: 48px 16px;
+	margin-top: 48px;
+	padding: 0 16px;
+}
+
+.transform-life {
+	padding-bottom: 48px;
 }
 
 .transform-life-image {
@@ -85,7 +90,12 @@
 	.conteiner-transform-life {
 		max-width: 768px;
 		margin: 0 auto;
-		padding: 24px 32px;
+		margin-top: 24px;
+		padding: 0 32px;
+	}
+
+	.transform-life {
+		padding-bottom: 32px;
 	}
 
 	.transform-life-image {
@@ -132,13 +142,17 @@
 
 	.conteiner-transform-life {
 		max-width: 1440px;
-
-		padding: 80px 64px;
+		margin-top: 80px;
+		padding: 0 64px;
 		background-color: #f2fafa;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
 		gap: 24px;
+	}
+
+	.transform-life {
+		padding-bottom: 80px;
 	}
 
 	.transform-life-image {
