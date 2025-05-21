@@ -1,13 +1,14 @@
-
 .title-space {
   text-align: center;
   font-size: 28px;
   line-height: 1.2;
   margin-bottom: 20px;
 }
+
 .br-line {
   display: block;
 }
+
 .step-yogabloom {
   text-align: center;
   font-size: 18px;
@@ -36,16 +37,10 @@
   display: block;
 }
 
-.container {
-    padding: 0 24px;
-    max-width: 320px;
-    margin: 0 auto;
-}
+
+
 @media screen and (min-width: 375px) {
-  .container {
-    max-width: 335px;
-    padding: 0 20px;
-  }
+
 
   .title-space {
     font-size: 28px;
@@ -57,41 +52,34 @@
     margin-bottom: 48px;
   }
 
-  
+
 }
-@media screen and (min-width: 768px)
-{
-  
-    .br-line
-    {
-      display: inline;
-     
-    }
-    .container
-    {
-      max-width: 768px;
-      padding: 0 32px;
-      margin: 0 auto;
-    }
-    .step-yogabloom
-    {
-       max-width: 600px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-    }
+
+@media screen and (min-width: 768px) {
+
+  .br-line {
+    display: inline;
+
+  }
+
+  .step-yogabloom {
+    max-width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media screen and (min-width: 1336px) {
- .step-yogabloom
-    {
-       max-width: 680px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-    }
-    .yoga {
-flex: 0 1 calc((100% - 24px * 2) / 3);
+  .step-yogabloom {
+    max-width: 680px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-}
+  .yoga {
+    flex: 0 1 calc((100% - 24px * 2) / 3);
+
+  }
 }
