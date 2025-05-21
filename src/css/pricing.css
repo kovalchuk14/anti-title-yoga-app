@@ -30,7 +30,7 @@
 .pricing-table-list {
     width: 100%;
     padding: 32px 24px;
-    background-color: #C3DBC4;
+    background-color: #DFEBEB;
     border-radius: 16px;
 }
 
@@ -55,8 +55,8 @@
 }
 
 .pricing-table-svg {
-  fill: #0D0B0A; 
-  margin-right: 16px; 
+    fill: #0D0B0A;
+    margin-right: 16px;
 }
 
 .pricing-button {
@@ -72,6 +72,16 @@
 }
 
 @media screen and (min-width: 768px) {
+
+    .pricing-perfect-plan {
+        font-size: 18px;
+        margin-bottom: 24px;
+    }
+
+    .pricing-title {
+        margin-bottom: 24px;
+    }
+
     .container-title-money {
         width: 320px;
     }
@@ -113,7 +123,7 @@
     }
 
     .button-width {
-        width:320px;
+        width: 320px;
         position: absolute;
         left: 16px;
         bottom: 86px;
@@ -127,7 +137,7 @@
     }
 
     .pricing-perfect-plan {
-        font-size: 18px;
+        margin-bottom: 40px;
     }
 
     .pricing-table-list {
