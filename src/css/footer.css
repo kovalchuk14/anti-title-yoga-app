@@ -12,6 +12,9 @@ background-color: #F8FBFE;
 border-radius: 16px;
 padding: 32px;
 }
+.footer-author-desktop {
+	display: none;
+}
 .footer-item-hidden {
 	position: absolute;
 	white-space: nowrap;
