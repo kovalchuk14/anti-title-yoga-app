@@ -58,6 +58,7 @@ button {
 section {
     padding: 64px 0;
     margin: 0 auto;
+    background-color: #F2FAFA;
 }
 
 .hidden {
@@ -70,7 +71,7 @@ section {
     }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1336px) {
     h2 {
         font-size: 52px;
     }

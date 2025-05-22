@@ -1,0 +1,144 @@
+.footer {
+    background-color: #DFEBEB;
+    padding: 48px 16px;
+}
+
+.footer-container {
+    background-color: #F8FBFE;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.footer-subscribe-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6em;
+    letter-spacing: 0%;
+
+    margin: 20px 0;
+}
+
+.footer-input {
+    background-color: #0D0B0A0D;
+    opacity: 95%;
+    border: 1px solid #FFFFFF00;
+    border-radius: 12px;
+    padding: 8px 12px;
+    width: 100%;
+}
+
+.footer-input-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    margin-bottom: 12px;
+}
+
+.footer-button {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #0D0B0A0D;
+    opacity: 95%;
+    border-radius: 100px;
+    border: 1px solid #FFFFFF00;
+    font-weight: 500;
+}
+
+.footer-subscribe-text-bottom {
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    letter-spacing: 0%;
+}
+
+
+.footer-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    margin-bottom: 12px;
+}
+
+.footer-nav-link {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 0%;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.footer-author {
+    margin-top: 48px;
+    width: 100%;
+}
+
+.footer-contacts {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    margin-left: 12px;
+}
+
+.footer-contact-conteiner {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-column-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    margin-top: 48px;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-column-container div {
+        width: calc((100% - 40px) / 2);
+    }
+
+    .footer-column-container {
+        flex-direction: row;
+    }
+
+    .footer-input-container {
+        width: 100%;
+        flex-direction: row;
+        gap: 16px
+    }
+
+    .footer-button {
+        max-width: 78px;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .footer-column-global,
+    .footer-column-container {
+        width: 50%;
+    }
+
+    .footer-author {
+        margin: 0;
+    }
+
+    .footer-column-container {
+        justify-content: end;
+    }
+
+}

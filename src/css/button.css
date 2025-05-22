@@ -1,0 +1,6 @@
+.common-button {}
+
+.common-button:hover,
+.common-button:focus {
+    background-color: #DADADA;
+}

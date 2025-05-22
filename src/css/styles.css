@@ -7,7 +7,7 @@
 /* Common styles */
 @import url('./tags.css');
 @import url('./container.css');
-
+@import url('./button.css');
 
 /* Sections style */
 @import url('./header.css');
@@ -19,3 +19,4 @@
 @import url('./testimonials.css');
 @import url('./pricing.css');
 @import url('./footer.css');
+@import url('./modal-window.css');

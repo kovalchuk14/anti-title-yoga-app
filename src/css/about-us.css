@@ -37,6 +37,10 @@
 }
 
 @media screen and (min-width: 768px) {
+    .about-us {
+        background-color: #F2FAFA;
+    }
+
     .about-us-title {
         margin-bottom: 24px;
     }
@@ -62,7 +66,7 @@
     }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1336px) {
     .about-us-element-title {
         font-size: 28px;
         margin-bottom: 24px;

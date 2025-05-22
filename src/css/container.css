@@ -5,14 +5,14 @@
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-    }
+  .container {
+    max-width: 768px;
+  }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1336px) {
     .container {
-        max-width: 1158px;
+        max-width: 1440px;
         padding: 0 64px;
     }
 }

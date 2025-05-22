@@ -1,0 +1,237 @@
+/*Delete after update container.css */
+.team-container{
+    width: 100%;
+    min-width: 320px;
+    max-width: 375px;
+    padding: 0 16px;
+    margin: 0 auto;
+
+    background-color: #F2FAFA;
+}
+
+ @media screen and (min-width: 768px){
+    .team-container {
+        max-width: 768px;
+        padding: 0 32px;
+     }
+ }
+
+   @media screen and (min-width: 1336px){
+    .team-container {
+        max-width: 1440px;
+        padding: 0 64px;
+     }
+ } 
+/* End of deleted styles*/
+
+.team-title-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 48px;
+}
+
+ @media screen and (min-width: 768px){
+    .team-title-cont {
+        margin-bottom: 40px;
+     }
+ }
+
+.team-title-meet{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #0d0b0a;
+
+    margin-bottom: 12px;
+}
+
+ @media screen and (min-width: 768px){
+    .team-title-meet {
+        margin-bottom: 16px;
+     }
+ }
+
+.team-header{
+    font-weight: 400;
+    color: #0d0b0a;
+
+    margin-bottom: 20px;
+}
+
+ @media screen and (min-width: 768px){
+    .team-header {
+        font-size: 52px;
+        margin-bottom: 24px;
+     }
+ }
+
+.team-header-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color:  #0d0b0a;
+}
+
+ @media screen and (min-width: 768px){
+    .team-header-description {
+        font-size: 18px;
+     }
+ }
+
+.team-list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: first baseline;
+    row-gap: 48px;
+    column-gap: 24px;
+}
+
+ @media screen and (min-width: 768px){
+    .team-list {
+        row-gap: 24px;
+     }
+ }
+
+  @media screen and (min-width: 1336px){
+    .team-list {
+        row-gap: 64px;
+     }
+ }
+
+.team-list-item{
+    width: 100%;
+    max-width: 375px;
+}
+
+ @media screen and (min-width: 768px){
+    .team-list-item {
+        max-width: 340px;
+     }
+ }
+
+  @media screen and (min-width: 1336px){
+    .team-list-item {
+        max-width: 421px;
+        width: calc((100% - 48px) / 3);
+     }
+ }
+
+.team-card-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.team-thumb{
+    position: relative;
+    width: 100%;
+    min-width: 288px;
+    max-width: 343px;
+    height: 221px;
+    border-radius: 16px;
+    overflow: hidden;
+   
+    margin-bottom: 20px;
+}
+
+ @media screen and (min-width: 768px){
+    .team-thumb {
+        max-width: 340px;
+        height: 395px;
+        
+        margin-bottom: 24px;
+     }
+ }
+
+  @media screen and (min-width: 1336px){
+    .team-thumb {
+        max-width: 100%;
+        width: 100%;
+     }
+ }
+
+.team-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+ @media screen and (min-width: 768px){
+    .team-image {
+        max-width: max-content;
+     }
+ }
+
+.team-card-header{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #0d0b0a;
+}
+
+ @media screen and (min-width: 768px){
+    .team-card-header {
+        font-size: 22px;
+     }
+ }
+
+.team-profession{
+   margin-bottom: 16px ; 
+}
+
+ @media screen and (min-width: 768px){
+    .team-profession {
+        font-size: 18px;
+     }
+ }
+
+.team-description{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ @media screen and (min-width: 768px){
+    .team-description {
+        margin-bottom: 24px;
+     }
+ }
+
+.team-soc-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.team-soc-item{
+    position: relative;
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+.team-social-icons{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: block;
+    fill: #0d0b0a;
+}
