@@ -1,14 +1,6 @@
-.space {
-  padding: 0 24px;
-  max-width: 320px;
-  margin: 0 auto;
-}
-
 .img-practic {
   margin-top: 48px;
   margin-bottom: 64px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .title-space {
@@ -18,9 +10,6 @@
   margin-bottom: 20px;
 }
 
-.br-line {
-  display: block;
-}
 
 .step-yogabloom {
   text-align: center;
@@ -39,71 +28,49 @@
   list-style: none;
 }
 
-.yoga {
-  flex: 0 1 calc((100% - 24px) / 2);
-}
-
 .step {
   width: 100%;
   height: auto;
   object-fit: cover;
   display: block;
   border-radius: 12px;
-  aspect-ratio: 1 / 1;
 }
 
-/* min-width: 375px */
-@media screen and (min-width: 375px) {
-  .space {
-    max-width: 335px;
-    padding: 0 20px;
-  }
-}
 
 /* min-width: 768px — планшет */
 @media screen and (min-width: 768px) {
-  .space {
-    max-width: 768px;
-    padding: 0 32px;
-    margin: 0 auto;
+
+  .title-space br {
+    display: none;
   }
 
   .img-practic {
     margin-top: 80px;
     margin-bottom: 40px;
-    padding-left: 32px;
-    padding-right: 32px;
   }
 
-  .br-line {
-    display: inline;
-  }
 
   .step-yogabloom {
     max-width: 600px;
     margin: 0 auto;
   }
-  
+
 }
 
 /* min-width: 1336px — десктоп */
 @media screen and (min-width: 1336px) {
-  .space {
-    max-width: 1336px;
-    padding: 0 64px;
-  }
- .text-wrapper {
+
+  .text-wrapper {
     padding-top: 122px;
     padding-left: 336px;
     padding-right: 336px;
     margin-bottom: 80px;
     text-align: center;
   }
+
   .img-practic {
     margin-top: 80px;
     margin-bottom: 112px;
-    padding-left: 64px;
-    padding-right: 64px;
   }
 
   .step-yogabloom {
@@ -114,25 +81,19 @@
   }
 
   .practic {
-    display: grid;
-    grid-template-columns: repeat(3, 421.33px);
-    gap: 24px;
     justify-content: center;
   }
 
-  .yoga {
-    flex: none;
-  }
 
   .step {
-    width: 421.33px;
-    height: 448px;
     border-radius: 16px;
-    aspect-ratio: auto;
   }
-  .title-space
-  {
-    font-size: 56px;
+
+  .yoga {
+    width: calc((100% - 48px) / 3);
+  }
+
+  .title-space {
+    font-size: 52px;
   }
 }
-
