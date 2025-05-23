@@ -1,6 +1,19 @@
+.space {
+  padding: 0 24px;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.img-practic {
+  margin-top: 48px;
+  margin-bottom: 64px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .title-space {
   text-align: center;
-  font-size: 28px;
+  font-size: 40px;
   line-height: 1.2;
   margin-bottom: 20px;
 }
@@ -33,53 +46,93 @@
 .step {
   width: 100%;
   height: auto;
-  border-radius: 12px;
+  object-fit: cover;
   display: block;
+  border-radius: 12px;
+  aspect-ratio: 1 / 1;
 }
 
-
-
+/* min-width: 375px */
 @media screen and (min-width: 375px) {
-
-
-  .title-space {
-    font-size: 28px;
-    margin-bottom: 24px;
+  .space {
+    max-width: 335px;
+    padding: 0 20px;
   }
-
-  .step-yogabloom {
-    font-size: 16px;
-    margin-bottom: 48px;
-  }
-
-
 }
 
+/* min-width: 768px — планшет */
 @media screen and (min-width: 768px) {
+  .space {
+    max-width: 768px;
+    padding: 0 32px;
+    margin: 0 auto;
+  }
+
+  .img-practic {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 
   .br-line {
     display: inline;
-
   }
 
   .step-yogabloom {
     max-width: 600px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
+  
 }
 
+/* min-width: 1336px — десктоп */
 @media screen and (min-width: 1336px) {
+  .space {
+    max-width: 1336px;
+    padding: 0 64px;
+  }
+ .text-wrapper {
+    padding-top: 122px;
+    padding-left: 336px;
+    padding-right: 336px;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+  .img-practic {
+    margin-top: 80px;
+    margin-bottom: 112px;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
   .step-yogabloom {
     max-width: 680px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 160%;
+  }
+
+  .practic {
+    display: grid;
+    grid-template-columns: repeat(3, 421.33px);
+    gap: 24px;
+    justify-content: center;
   }
 
   .yoga {
-    flex: 0 1 calc((100% - 24px * 2) / 3);
+    flex: none;
+  }
 
+  .step {
+    width: 421.33px;
+    height: 448px;
+    border-radius: 16px;
+    aspect-ratio: auto;
+  }
+  .title-space
+  {
+    font-size: 56px;
   }
 }
+
